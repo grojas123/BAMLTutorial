@@ -1,3 +1,5 @@
 pydantic
 baml-py
 python-dotenv
+jupyterlab
+openai
