@@ -1,22 +1,13 @@
-from openai import OpenAI, AsyncOpenAI
-import os
 # importing necessary functions from dotenv library
 from dotenv import load_dotenv, dotenv_values 
 # loading variables from .env file
 load_dotenv() 
-# For synchronous usage
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-),
-
-
 
 from baml_client.sync_client import b
 from baml_client.types import Resume
 
 def test_extract_resume():
     # Sample resume text
-    print(os.getenv("OPENAI_API_KEY"))
     sample_resume = """
     John Doe
     Software Engineer

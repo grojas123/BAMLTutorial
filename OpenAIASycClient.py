@@ -1,16 +1,11 @@
 import asyncio
 from baml_client.async_client import b
 from baml_client.types import Resume
-from openai import OpenAI, AsyncOpenAI
-import os
 # importing necessary functions from dotenv library
 from dotenv import load_dotenv, dotenv_values 
 # loading variables from .env file
 load_dotenv() 
-# For asynchronous usage
-async_client = AsyncOpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
+
 async def test_extract_resume_async():
     # Sample resume text
     sample_resume = """
