@@ -44,4 +44,4 @@ class Resume(BaseModel):
     email: str
     experience: List[str]
     skills: List[str]
-
+    languages: List[str]

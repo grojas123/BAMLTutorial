@@ -39,4 +39,4 @@ class Resume(BaseModel):
     email: Optional[str] = None
     experience: List[Optional[str]]
     skills: List[Optional[str]]
-
+    languages: List[Optional[str]]

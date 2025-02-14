@@ -4,6 +4,7 @@ class Resume {
   email string
   experience string[]
   skills string[]
+  languages string[]
 }
 
 // Create a function to extract the resume from a string.
