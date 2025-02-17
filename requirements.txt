@@ -3,3 +3,4 @@ baml-py
 python-dotenv
 jupyterlab
 openai
+PyPDF2

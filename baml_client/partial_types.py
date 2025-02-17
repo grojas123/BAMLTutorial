@@ -40,3 +40,8 @@ class Resume(BaseModel):
     experience: List[Optional[str]]
     skills: List[Optional[str]]
     languages: List[Optional[str]]
+
+class SpareParts(BaseModel):
+    CapitalSpareParts: List[Optional[str]]
+    CommissioningSpareParts: List[Optional[str]]
+    TwoYearSpareParts: List[Optional[str]]
